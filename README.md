@@ -13,7 +13,7 @@ Thing is, we don't need all of the capabilities of Lanterna, so here is Lanterna
 Maven
 ---
 
-Lanterna Turbo is available right here! No Maven Central version, this comes with the satisfaction of building the library yourself!:
+Lanterna Turbo is available right here! No Maven Central version, this comes with the satisfaction of building the library yourself!
 
 
 Discussions

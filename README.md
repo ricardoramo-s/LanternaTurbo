@@ -10,6 +10,8 @@ One of the main benefits of lanterna is that it's not dependent on any native li
 
 Thing is, we don't need all of the capabilities of Lanterna, so here is Lanterna Turbo, a really crippled version of Lanterna that exists with the sole purpose of drawing large amounts of colored spaces to the screen.
 
+Go contribute to the folks keeping the original Lanterna project [here](https://github.com/mabe02/lanterna).
+
 Maven
 ---
 
@@ -18,7 +20,7 @@ Lanterna Turbo is available right here! No Maven Central version, this comes wit
 
 Discussions
 ---
-There is not a for discussions and announcements related to Lanterna Turbo, since this version is completely broken™.
+There is not a group for discussions and announcements related to Lanterna Turbo, since this version is completely broken™.
 You are recommended to raise issues directly to no one.
 
 

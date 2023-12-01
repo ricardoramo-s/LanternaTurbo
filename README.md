@@ -1,7 +1,7 @@
 Lanterna Turbo
 ---
 
-![Lanterna screenshot]([https://github.com/ricardoramo-s/LanternaTurbo/blob/main/lanternaturbo.png])
+![Lanterna screenshot](https://github.com/ricardoramo-s/LanternaTurbo/blob/main/lanternaturbo.png)
 
 Lanterna is a Java library allowing you to write easy semi-graphical user interfaces in a text-only environment,
 very similar to the C library [curses](http://en.wikipedia.org/wiki/Curses_(programming_library)) but with more functionality.

@@ -8,58 +8,26 @@ very similar to the C library [curses](http://en.wikipedia.org/wiki/Curses_(prog
 Lanterna is supporting xterm compatible terminals and terminal emulators such as konsole, gnome-terminal, putty, xterm and many more.
 One of the main benefits of lanterna is that it's not dependent on any native library but runs 100% in pure Java.
 
-Also, when running Lanterna on computers with a graphical environment (such as Windows or Xorg), a bundled terminal emulator
-written in Swing will be used rather than standard output. This way, you can develop as usual from your IDE
-(most of them doesn't support ANSI control characters in their output window) and then deploy to your headless server without changing any code.
-
-Lanterna is structured into three layers, each built on top of the other and you can easily choose which one fits your needs best.
-
-1. The first is a low level terminal interface which gives you the most basic control of the terminal text area.
-   You can move around the cursor and enable special modifiers for characters put to the screen. You will find these classes in package com.googlecode.lanterna.terminal.
-
-2. The second level is a full screen buffer, the whole text screen in memory and allowing you to write to this before flushing the changes to the actual terminal.
-   This makes writing to the terminal screen similar to modifying a bitmap. You will find these classes in package com.googlecode.lanterna.screen.
-
-3. The third level is a full GUI toolkit with windows, buttons, labels and some other components.
-   It's using a very simple window management system (basically all windows are modal) that is quick and easy to use.
-   You will find these classes in package com.googlecode.lanterna.gui2.
-
+Thing is, we don't need all of the capabilities of Lanterna, so here is Lanterna Turbo, a really crippled version of Lanterna that exists with the sole purpose of drawing large amounts of colored spaces to the screen.
 
 Maven
 ---
 
-Lanterna is available on [Maven Central](http://search.maven.org/), through [Sonatype OSS hosting](http://oss.sonatype.org/). Here's what you want to use:
+Lanterna Turbo is available right here! No Maven Central version, this comes with the satisfaction of building the library yourself!:
 
-```xml
-    <dependency>
-        <groupId>com.googlecode.lanterna</groupId>
-        <artifactId>lanterna</artifactId>
-        <version>3.1.1</version>
-    </dependency>
-```
 
 Discussions
 ---
-There is a [google group](https://groups.google.com/forum/#!forum/lanterna-discuss) for discussions and announcements related to Lanterna.
-You are recommended to raise issues directly on Github though.
+There is not a for discussions and announcements related to Lanterna Turbo, since this version is completely broken™.
+You are recommended to raise issues directly to no one.
 
 
-Projects using Lanterna
+Projects using Lanterna Turbo
 ---
-Incomplete list of projects using Lanterna, feel free to let us know something we can add to this list:
- * https://github.com/MultiMUD/clojure-lanterna
- * https://github.com/datacron/project-lanterminal
+Our own Super Mario inspired game at:
+ * (the link is private).
 
 
 Development Guide
 ---
-See [docs](docs/contents.md) for examples and guides.
-
-JavaDoc is available here:
- * http://mabe02.github.io/lanterna/apidocs/3.1/
-
-The JavaDocs for the previous versions (2.1 and 3.0) are also available here:
-* http://mabe02.github.io/lanterna/apidocs/2.1/
-* http://mabe02.github.io/lanterna/apidocs/3.0/
-
-There is also a development guide and some tutorials available [right here on Github](https://github.com/mabe02/lanterna/blob/master/docs/contents.md).
+Use normal Lanterna guides. Just don't use any character beside a space 😉 (or any terminal besides AWTTerminal).
